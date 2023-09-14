@@ -88,3 +88,9 @@ However, the zero confidence level does not intersect with the WHITE-OTHER which
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+First, we plotted graphical descriptive results where we weren't able to determine if there is a difference between the scores because the data was not clear enough. After, we ran a favstats to look at the mean value  for each value race, which we concluded that the average/mean values between BLACK and WHITE are close. However, the mean value for the OTHER race has a lower value, which means that there is a difference between the OTHER and both the WHITE and BLACK races. Then we ran a one way anova test to look at our p-value, which came out to be less than 0.05. Finally, we ran a multiple comparison test, which we concluded that there is a significant difference between the WHITE-OTHER races.
+
+$H_0$ There is no difference between the average score on the WORDSUM test between OTHER-BLACK and the WHITE-BLACK races.
+
+$H_A$ There is a significant difference in average score on the WORDSUM test between at least two other races.
