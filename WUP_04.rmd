@@ -76,6 +76,15 @@ P-Value = 0.0182
 
 By looking at the one way anova test, our p-value is less than 0.5 we can conclude that we need to run one more test to be able to analyze the data. 
    
+```{r}
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
+By looking at the multiple comparison test, we can see the zero confidence level intersects with the OTHER-BLACK and the WHITE-BLACK races meaning that there is no difference in average scores ib WORDSUM test between each pair of these races.
+
+However, the zero confidence level does not intersect with the WHITE-OTHER which means that there is difference in average scores between these two races and that's what caused our p-value to be small.   
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
